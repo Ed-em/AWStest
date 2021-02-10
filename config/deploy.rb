@@ -6,7 +6,7 @@ set :application, 'AWStest'
 # (Xxxxxxxx: user name, yyyyyyyy: application name)
 set :repo_url, 'https://github.com/Ed-em/AWStest'
 # The branch to deploy. The default is not necessarily master.
-set :branch, ENV['BRANCH'] || 'master'
+set :branch, ENV['BRANCH'] || 'main'
 # The directory to deploy to.
 set :deploy_to, '/var/www/AWStest'
 # Folders/files with symbolic links
